@@ -406,13 +406,13 @@ Estilizando formulários parte 2 */
 
 body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    background: #d7bbf0;
+    background: #ebe7f0 url("../imagens/image01.png");
 }
 
 #container {
     width: 450px;
     height: 300px;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(233, 213, 241, 0.3);
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
@@ -426,7 +426,7 @@ body {
 .img-svg {
     width: 450px;
     height: 300px;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(241, 216, 245, 0.3);
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
@@ -449,7 +449,8 @@ input {
     width: 80%;
     font-size: 18px;
     margin-bottom: 10px;
-    background-color: rgb(245, 230, 247);
+    border-radius: 20px;
+    background-color: rgb(240, 200, 245);
     padding-left: 40px;
     border: none;
     background-repeat: no-repeat;
@@ -467,6 +468,7 @@ input.senha {
 input.submit {
     color: rgb(245, 38, 72);
     background-color: #d816d8;
+    border-radius: 20px;
     border: 2px solid #e606d3;
     padding: 5px 20px;
     height: 45px;
@@ -474,5 +476,5 @@ input.submit {
     background: -webkit-linear-gradient(to bottom, #da09be, #ee07c7);
     background: -moz-linear-gradient(to bottom, #dd00fa, #f600e2);
     background: -o-linear-gradient(to bottom, #fa00d0, #f600ac);
-    background: linear-gradient(to bottom, #eb07df, #ecaedf);
+    background: linear-gradient(to bottom, #e99de5, #ecaedf);
 }
